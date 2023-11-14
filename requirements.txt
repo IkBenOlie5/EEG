@@ -3,4 +3,4 @@ sounddevice
 numpy
 scipy
 matplotlib
-
+pygame

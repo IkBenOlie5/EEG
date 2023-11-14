@@ -1,0 +1,75 @@
+import sys
+
+import constants as c
+import pygame as pg
+import sounddevice as sd
+from resources import load_png
+from sprites import Background, Bird, Pipe
+
+
+class Game:
+    def __init__(self):
+        pg.init()
+        self.screen = pg.display.set_mode(c.SIZE, pg.DOUBLEBUF)
+        pg.display.set_caption(c.TITLE)
+        pg.event.set_allowed([pg.QUIT, pg.KEYDOWN])
+        self.clock = pg.time.Clock()
+
+        self.background_image = load_png(c.BACKGROUND_FILE)
+        self.bird_image = load_png(c.BIRD_FILE)
+        self.pipe_image = load_png(c.PIPE_FILE)
+
+        self.stream = sd.InputStream(samplerate=c.SAMPLERATE, device=c.DEVICE)
+
+        self.dt = 0
+        self.t = 0
+        self.fps = c.FPS
+        self.playing = False
+
+    def new(self):
+        self.stream.start()
+        self.all_sprites = pg.sprite.Group()
+        self.pipes = pg.sprite.Group()
+
+        self.background = Background(self)
+        self.bird = Bird(self, int(c.WIDTH / 2), c.START_Y)
+
+    def quit(self):
+        pg.quit()
+        sys.exit()
+
+    def update(self):
+        if self.t > c.TIME_BETWEEN_PIPES:
+            self.t = 0
+            Pipe(self)
+
+        self.all_sprites.update()
+
+    def draw(self):
+        self.screen.blit(self.background.image, self.background.rect)
+        for sprite in self.all_sprites:
+            self.screen.blit(sprite.image, sprite.rect)
+        pg.display.update()
+
+    def run(self):
+        while True:
+            self.events()
+            self.update()
+            self.draw()
+            self.clock.tick(c.FPS) / 1000
+            self.fps = self.clock.get_fps()
+            self.t += self.dt
+
+            try:
+                self.dt = 1 / self.fps
+            except ZeroDivisionError:
+                pass
+            pg.display.set_caption(f"{c.TITLE} - FPS: {self.fps:.2f}")
+
+    def events(self):
+        for event in pg.event.get():
+            if event.type == pg.QUIT:
+                self.quit()
+            if event.type == pg.KEYDOWN:
+                if event.key == pg.K_ESCAPE:
+                    self.quit()
