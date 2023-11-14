@@ -1,8 +1,9 @@
 import sys
 
-import constants as c
 import pygame as pg
 import sounddevice as sd
+
+import constants as c
 from resources import load_png
 from sprites import Background, Bird, Pipe
 

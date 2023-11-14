@@ -1,8 +1,9 @@
 import random
 
-import constants as c
 import numpy as np
 import pygame as pg
+
+import constants as c
 
 
 class Background(pg.sprite.Sprite):
@@ -26,7 +27,7 @@ class Bird(pg.sprite.Sprite):
     def detect_jump(self):
         try:
             to_read = int(c.SAMPLERATE / self.game.fps)
-        except ZeroDivisionError: # when the game starts up, fps = 0
+        except ZeroDivisionError:  # when the game starts up, fps = 0
             return False
         data = self.game.stream.read(to_read)[0].flatten()
         return np.min(data) < -c.THRESHOLD or np.max(data) > c.THRESHOLD
@@ -42,11 +43,9 @@ class Bird(pg.sprite.Sprite):
         self.rect.centery = self.y
 
         if self.rect.top <= 0:
-            self.vel = 0
             self.rect.top = 0
 
         if self.rect.bottom >= c.HEIGHT:
-            self.vel = 0
             self.rect.bottom = c.HEIGHT
 
         for pipe in self.game.pipes:

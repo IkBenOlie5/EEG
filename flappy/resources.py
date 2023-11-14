@@ -1,8 +1,9 @@
 import os
 from pathlib import Path
 
-import constants as c
 import pygame as pg
+
+import constants as c
 
 game_directory = Path(os.path.dirname(__file__))
 assets_directory = os.path.join(game_directory, c.ASSETS_FOLDER)
