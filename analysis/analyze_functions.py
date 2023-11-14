@@ -1,3 +1,8 @@
+"""
+This code was taken from: https://github.com/ryanlopezzzz/EEG/blob/main/analysis_tools.py
+The only difference is using the fourier transform from scipy instead of numpy: https://scipy.org/faq/#what-is-the-difference-between-numpy-and-scipy 
+"""
+
 import math
 import time
 
@@ -122,7 +127,7 @@ def calibration(calibration_time, sps, adc, freq_min=8, freq_max=12, print_time=
     adc.stopContinuousConversion()
     if print_time:
         print("Time elapsed: %.9f s." % t)
-    freq = np.fft.fftfreq(nsamples, d=1.0 / sps)
+    freq = scipy.fft.fftfreq(nsamples, d=1.0 / sps)
     ps = get_power_spectrum(time_series)
     rms = get_rms_voltage(ps, freq_min, freq_max, freq, nsamples)
 
