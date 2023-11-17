@@ -21,3 +21,5 @@ For this data, Hu had his eyes open and blinked a few times. The peaks correspon
 ## Flappy bird
 Flappy bird is coded in python using pygame. Instead of being able to jump by pressing the space button, you can jump by blinking. See the detect_jump function in the [sprites.py file](flappy/sprites.py). Too make the game harder/easier you can alter the difficulty of the game by changing the time between pipes, the speed of the pipes and the space between the bottom and upper pipe in the [constants.py file](flappy/constants.py).
 
+For the live demonstration, see the [EEG flappy bird video](videos/EEG%20flappy%20video.mp4).
+
