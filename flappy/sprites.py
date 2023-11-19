@@ -36,7 +36,6 @@ class Bird(pg.sprite.Sprite):
         if self.detect_jump():
             self.vel = c.JUMP_SPEED
             self.game.jump_sound.play()
-            self.game.score_num = 0
 
         if self.vel < c.FALL_MAX:
             self.vel += c.FALL_ACCEL
@@ -57,6 +56,7 @@ class Bird(pg.sprite.Sprite):
                 pipe.kill()
                 self.y = c.START_Y
                 self.game.die_sound.play()
+                self.game.score_num = 0
 
 
 class Pipe(pg.sprite.Sprite):
@@ -67,7 +67,7 @@ class Pipe(pg.sprite.Sprite):
             (game.pipe_image.get_width(), c.HEIGHT), pg.SRCALPHA
         )
         self.rect = self.image.get_rect()
-        self.y = random.randint(c.BETWEEN_PIPES, c.HEIGHT)
+        self.y = random.randint(max(c.BETWEEN_PIPES, c.HEIGHT - game.pipe_image.get_height()), min(c.HEIGHT, game.pipe_image.get_height() + c.BETWEEN_PIPES))
 
         self.image.blit(game.pipe_image, (0, self.y))
         self.image.blit(
@@ -94,7 +94,7 @@ class Score(pg.sprite.Sprite):
         self.rect.center = (x, y)
     
     def update(self):
-        if self.game.score_num > self.previous_score:
+        if self.game.score_num != self.previous_score:
             self.image = self.game.score_font.render(str(self.game.score_num), True, c.FONT_COLOR)
             self.previous_score = self.game.score_num
         
