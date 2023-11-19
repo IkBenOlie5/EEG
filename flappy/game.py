@@ -4,12 +4,13 @@ import pygame as pg
 import sounddevice as sd
 
 import constants as c
-from resources import load_png
-from sprites import Background, Bird, Pipe
+from resources import load_png, load_sound, load_font
+from sprites import Background, Bird, Pipe, Score
 
 
 class Game:
     def __init__(self):
+        pg.mixer.pre_init(44100, -16, 2, 512)
         pg.init()
         self.screen = pg.display.set_mode(c.SIZE, pg.DOUBLEBUF)
         pg.display.set_caption(c.TITLE)
@@ -19,6 +20,13 @@ class Game:
         self.background_image = load_png(c.BACKGROUND_FILE)
         self.bird_image = load_png(c.BIRD_FILE)
         self.pipe_image = load_png(c.PIPE_FILE)
+
+        self.jump_sound = load_sound(c.JUMP_FILE)
+        self.die_sound = load_sound(c.DIE_FILE)
+
+        self.score_font = load_font(c.FONT_FILE, c.FONT_SIZE)
+
+        self.score_num = 0
 
         self.stream = sd.InputStream(samplerate=c.SAMPLERATE, device=c.DEVICE)
 
@@ -33,6 +41,7 @@ class Game:
         self.pipes = pg.sprite.Group()
 
         self.background = Background(self)
+        self.score = Score(self, int(c.WIDTH / 2), c.FONT_Y)
         self.bird = Bird(self, int(c.WIDTH / 2), c.START_Y)
 
     def quit(self):
@@ -43,6 +52,7 @@ class Game:
         if self.t > c.TIME_BETWEEN_PIPES:
             self.t = 0
             Pipe(self)
+            self.score_num += 1
 
         self.all_sprites.update()
 

@@ -1,6 +1,0 @@
-soundfile
-sounddevice
-numpy
-scipy
-matplotlib
-pygame

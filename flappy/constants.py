@@ -10,6 +10,14 @@ ASSETS_FOLDER = "./assets"
 BACKGROUND_FILE = "background-day.png"
 BIRD_FILE = "yellowbird-midflap.png"
 PIPE_FILE = "pipe-green.png"
+JUMP_FILE = "flap.mp3"
+DIE_FILE = "die.mp3"
+FONT_FILE = "04B_19.TTF"
+
+FONT_SIZE = 20
+FONT_COLOR = (255, 255, 255)
+FONT_Y = 50
+
 
 FALL_ACCEL = 5
 FALL_MAX = 200
@@ -20,5 +28,5 @@ BETWEEN_PIPES = 175
 PIPE_SPEED = 75
 TIME_BETWEEN_PIPES = 3
 
-THRESHOLD = 0.05
+THRESHOLD = 0.5
 SAMPLERATE = 44100

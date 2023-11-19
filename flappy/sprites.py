@@ -35,6 +35,8 @@ class Bird(pg.sprite.Sprite):
     def update(self):
         if self.detect_jump():
             self.vel = c.JUMP_SPEED
+            self.game.jump_sound.play()
+            self.game.score_num = 0
 
         if self.vel < c.FALL_MAX:
             self.vel += c.FALL_ACCEL
@@ -54,6 +56,7 @@ class Bird(pg.sprite.Sprite):
             ):
                 pipe.kill()
                 self.y = c.START_Y
+                self.game.die_sound.play()
 
 
 class Pipe(pg.sprite.Sprite):
@@ -79,3 +82,22 @@ class Pipe(pg.sprite.Sprite):
 
         if self.rect.right < 0:
             self.kill()
+
+class Score(pg.sprite.Sprite):
+    def __init__(self, game, x, y):
+        super().__init__((game.all_sprites))
+        self.game = game
+        self.previous_score = 0
+        self.image = self.game.score_font.render(str(self.game.score_num), True, c.FONT_COLOR)
+        self.rect = self.image.get_rect()
+
+        self.rect.center = (x, y)
+    
+    def update(self):
+        if self.game.score_num > self.previous_score:
+            self.image = self.game.score_font.render(str(self.game.score_num), True, c.FONT_COLOR)
+            self.previous_score = self.game.score_num
+        
+    
+
+        
