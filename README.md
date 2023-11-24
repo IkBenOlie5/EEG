@@ -11,6 +11,5 @@ For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have 
 - [Software](software.md)
 - [Continuing with our project](continue.md)
 
-## Best sources
-- [ryanlopezzzz/EEG](https://github.com/ryanlopezzzz/EEG)
+## [Sources](bibliography.rtf)
 

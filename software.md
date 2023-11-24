@@ -26,7 +26,7 @@ Flappy bird is coded in python using pygame. Instead of being able to jump by pr
 For the live demonstration, see the [EEG flappy bird video](videos/EEG%20flappy%20video.mp4).
 
 ## Predicting whether someones eyes are open or closed (external dataset)
-We built three different models to predict whether someones eyes are open or closed: a K Nearest Neightbors model, s Support Vector Machine, and a neural network build using Keras and Tensorflow. For a great explanation for all the concepts I highly recommend checking out [Sentdex' machine learning youtube course](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v). 
+We built three different models to predict whether someones eyes are open or closed: a K Nearest Neightbors model, s Support Vector Machine, and a neural network build using Keras and Tensorflow. For a great explanation for all the concepts I highly recommend checking out [Sentdex' machine learning youtube course](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v). For training the Support Vector Machine, I recommend following [A Practical Guide to Support Vector Classification](https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf). The neural network worked the worst, only getting an accuracy of 56 %. We used this dataset: https://www.kaggle.com/datasets/robikscube/eye-state-classification-eeg-dataset
 
 ## Predicting whether someones eyes are open or closed (our data)
 To predict whether we had our eyes open or closed was not very difficult. For this, we could calculate the Root Mean Squared (RMS) voltage. ...
