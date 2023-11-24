@@ -9,17 +9,19 @@ For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have 
 ## Wiring
 ![Wiring](images/wiring.png "Wiring")
 
-This diagram describes the EEG machine. Three electrodes are taped to the subject's scalp at O2, Fp2, and A1 according to the [10-20 system](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). These electrodes are then attached to the circuit, which will amplify the signal and filter out non-alpha waves. The signal then goes through an audio interface and then into the computer, which will treat it like a microphone.
+This diagram describes the EEG machine. Three electrodes are taped to the subject's scalp at O2, Fp2, and A1 according to the [10-20 system](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). These electrodes are then attached to the circuit, which amplifies the signal filters out everything except for the alpha waves. The signal then goes through an audio interface and then into the computer, which will treat it like a microphone.
 
-This is the physical setup:
+This is how the circuit looks in reality:
 ![EEG](images/EEG.png "EEG")
 
 ## Electrode placement for alpha waves
-To measure alpha waves, we need to use three electrodes: one at the left mastoid (the bone at the back of the left ear) which is connected to the ground of the circuit. This electrode helps with noise cancelling; one located one inch above and one inch to the right of the nasion (the midline bony depression between the eyes where the frontal and two nasal bones meet); the last one located one inch above and one inch right of the inion (the projecting part of the occipital bone at the base of the skull). The 2nd and 3rd electrode placements are approximately in O2 and Fp2 regions in the below diagram:
+We used simple, one-time use ECG (electrocardiogram) electrodes, which can be used for an EEG aswell.  
+To measure alpha waves, "we need to use three electrodes: one at the left mastoid (the bone at the back of the left ear) which is connected to the ground of the circuit. This electrode helps with noise cancelling; one located one inch above and one inch to the right of the nasion (the midline bony depression between the eyes where the frontal and two nasal bones meet); the last one located one inch above and one inch right of the inion (the projecting part of the occipital bone at the base of the skull). The 2nd and 3rd electrode placements are approximately in O2 and Fp2 regions in the below diagram:
 
 ![Head](images/head.png "Head")
 
-The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which are then fed to the circuit to be amplified and filtered. We think that the reason why this is is because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), just like an ECG (electrocardiogram).
+The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which are then fed to the circuit to be amplified and filtered." (Lopez, 2021/2023)  
+We think that the alpha waves are the oscillations between the 2nd and 3rd electrode because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), that our EEG works just like an ECG.
 
 ## Circuit
 For the explanation of the circuit, see the [hardware file](hardware.md).
