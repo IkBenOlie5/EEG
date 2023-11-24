@@ -22,9 +22,9 @@ def load_png(filename):
     return image
 
 
-
 def load_sound(filename):
     return pg.mixer.Sound(os.path.join(sounds_directory, filename))
+
 
 def load_font(filename, size):
     return pg.font.Font(os.path.join(fonts_directory, filename), size)

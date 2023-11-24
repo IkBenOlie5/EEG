@@ -4,7 +4,7 @@ import pygame as pg
 import sounddevice as sd
 
 import constants as c
-from resources import load_png, load_sound, load_font
+from resources import load_font, load_png, load_sound
 from sprites import Background, Bird, Pipe, Score
 
 
