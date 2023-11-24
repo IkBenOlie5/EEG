@@ -9,6 +9,7 @@ For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have 
 ## Explanations:
 - [Hardware](hardware.md)
 - [Software](software.md)
+- [Continuing with our project](continue.md)
 
 ## Best sources
 - [ryanlopezzzz/EEG](https://github.com/ryanlopezzzz/EEG)
