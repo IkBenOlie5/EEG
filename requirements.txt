@@ -4,3 +4,10 @@ numpy
 scipy
 matplotlib
 pygame
+polars
+scikit-learn
+imbalanced-learn
+scikit-learn-intelex # only works on intel architecture
+ipykernel
+tensorflow
+seaborn
