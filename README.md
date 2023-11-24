@@ -1,5 +1,5 @@
 # EEG
-For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have built an EEG (electroencephalogram) machine. This is a machine that measures brain waves,  voltage differences which oscillate and represent synchronized activity over a network of neurons. For our project, we measure alpha waves originating from the occipital lobe because they are one of the strongest EEG signals. Alpha waves reflect activities in the visual cortex, when someone closes their eyes or relaxes, their magnitude is increased, and decreased with open eyes and concentration.
+For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have built an EEG (electroencephalogram) machine. This is a machine that measures brain waves, voltage differences which oscillate and represent synchronized activity over a network of neurons. For our project, we measure alpha waves originating from the occipital lobe because they are one of the strongest EEG signals. Alpha waves reflect activities in the visual cortex; when someone closes their eyes or relaxes, their magnitude is increased, and decreased with open eyes and concentration.
 
 ## We have used the EEG data for multiple applications:
 - [Analyzing the data.](analysis)
@@ -9,7 +9,7 @@ For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have 
 ## Wiring
 ![Wiring](images/wiring.png "Wiring")
 
-This diagram describes the EEG machine. Three electrodes are taped to the subject's scalp at O2, Fp2, and A1 according to the [10-20 system](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). These electrodes are then attached to the circuit which will amplify the signal and filter out non-alpha waves. The signal then goes through an audio interface and then into the computer which will treat it like a microphone.
+This diagram describes the EEG machine. Three electrodes are taped to the subject's scalp at O2, Fp2, and A1 according to the [10-20 system](https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)). These electrodes are then attached to the circuit, which will amplify the signal and filter out non-alpha waves. The signal then goes through an audio interface and then into the computer, which will treat it like a microphone.
 
 This is the physical setup:
 ![EEG](images/EEG.png "EEG")
@@ -19,7 +19,7 @@ To measure alpha waves, we need to use three electrodes: one at the left mastoid
 
 ![Head](images/head.png "Head")
 
-The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which is then fed to the circuit to be amplified and filtered. We think that the reason why this is, is because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), just like an ECG (electrocardiogram).
+The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which are then fed to the circuit to be amplified and filtered. We think that the reason why this is is because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), just like an ECG (electrocardiogram).
 
 ## Circuit
 For the explanation of the circuit, see the [hardware file](hardware.md).
@@ -31,5 +31,4 @@ For the explanation of the signal processing and the application, see the [softw
 If you want to continue with our project to improve it, see the [discussion file](discussion.md).
 
 ## Bibliography
-Our most important source was [ryanlopezzz' EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](bibliography.txt)/
-
+Our most important source was [Ryan Lopez' EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](bibliography.txt).

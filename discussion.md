@@ -1,16 +1,16 @@
 # Continuing with our project
-If you want to continue with our project, we have a few ideas on how the EEG and software can be improved.
+If you wish to improve upon our project, we have several ideas on how to enhance both the EEG and software components.
 
 ## More electrodes
-Firstly, you could add more electrodes, we currently only use three electrodes, but this number could be increased drastically. This will then allow you to use a technique called Independant Component Analysis (ICA) to remove artifacts. A good video series for this is: https://www.youtube.com/playlist?list=PLXc9qfVbMMN2uDadxZ_OEsHjzcRtlLNxc. We currently also get noise unrelated to concentration or whether someones eyes are open such as speaking and muscles firing. This is usually also used to filter out the signals from blinking, but we wanted to use exactly this for playing flappy bird as it gives really high peaks.
+Firstly, consider adding more electrodes; we currently use only three, but this number could be significantly increased. This expansion allows the application of a technique called Independent Component Analysis (ICA) to eliminate artifacts. A helpful video series on ICA can be found at: [ICAnalysis - YouTube Playlist](https://www.youtube.com/playlist?list=PLXc9qfVbMMN2uDadxZ_OEsHjzcRtlLNxc). Currently, we also get noise unrelated to concentration or eye status, such as speaking and muscle activity. This noise is typically filtered out when detecting blinking, but we intentionally utilize it for playing Flappy Bird, as it produces very high peaks.
 
 ## Thought detection
-With more electrodes, which can also be achieved by simply buying a premade EEG, you can try to build a neural network that is able to detect what someone is thinking about: https://youtube.com/watch?v=DBYY3D1gkQ0&si=ZuJdfMcYiEgIXuje
+With more electrodes, achievable by purchasing a pre-made EEG, you can attempt to build a neural network capable of detecting a person's thoughts. For more information, refer to this video: [Playing Video Games With Mind Control - YouTube](https://www.youtube.com/watch?v=DBYY3D1gkQ0&si=ZuJdfMcYiEgIXuje).
 
 ## Radio signal
-When we play back the raw signal using Audacity, we can hear a radio station in the background (we even heard a Nivea commercial). You could try to build a radio antenna and filter out all the noise (which is done very similarly to how we filter out the noise).
+When we playback the raw signal using Audacity, a radio station can be heard in the background (we even heard a Nivea commercial). Consider building a radio antenna and filtering out all the noise, a process similar to our noise filtering.
 
 ## Einthoven triangle
-We think that the reason why the triangle we have created captures the alpha waves is because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle). You could research whether this is correct or not.
+We believe that the triangle we have created (earlobe, front of head, and back of head) captures alpha waves due to the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle). Research whether this assumption is correct or not.
 
-In Ryan Lopez' EEG project, he also mentioned some possible improvements which are the same for our EEG: https://github.com/ryanlopezzzz/EEG#future-improvement
+In Ryan Lopez's EEG project, he also mentioned some possible improvements, which are applicable to our EEG as well: [Ryan Lopez's EEG Project - Future Improvements](https://github.com/ryanlopezzzz/EEG#future-improvement).
