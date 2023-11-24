@@ -19,7 +19,7 @@ To measure alpha waves, we need to use three electrodes: one at the left mastoid
 
 ![Head](images/head.png "Head")
 
-The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which is then fed to the circuit to be amplified and filtered.
+The voltage difference oscillations between the 2nd and 3rd electrodes are the target alpha waves, which is then fed to the circuit to be amplified and filtered. We think that the reason why this is, is because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), just like an ECG (electrocardiogram).
 
 ## Circuit
 For the explanation of the circuit, see the [hardware file](hardware.md).
@@ -31,5 +31,5 @@ For the explanation of the signal processing and the application, see the [softw
 If you want to continue with our project to improve it, see the [discussion file](discussion.md).
 
 ## Bibliography
-Our most important source was [ryanlopess EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](bibliography.txt)/
+Our most important source was [ryanlopezzz' EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](bibliography.txt)/
 
