@@ -11,5 +11,5 @@ For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have 
 - [Software](software.md)
 - [Continuing with our project](continue.md)
 
-## [Sources](bibliography.rtf)
+## [Sources](bibliography.md)
 
