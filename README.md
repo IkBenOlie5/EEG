@@ -15,7 +15,7 @@ This is how the circuit looks in reality:
 ![EEG](images/EEG.png "EEG")
 
 ## Electrode placement for alpha waves
-We used simple, one-time use ECG (electrocardiogram) electrodes, which can be used for an EEG aswell.  
+We used one-time use ECG (electrocardiogram) electrodes, which can be used for an EEG as well.  
 To measure alpha waves, "we need to use three electrodes: one at the left mastoid (the bone at the back of the left ear) which is connected to the ground of the circuit. This electrode helps with noise cancelling; one located one inch above and one inch to the right of the nasion (the midline bony depression between the eyes where the frontal and two nasal bones meet); the last one located one inch above and one inch right of the inion (the projecting part of the occipital bone at the base of the skull). The 2nd and 3rd electrode placements are approximately in O2 and Fp2 regions in the below diagram:
 
 ![Head](images/head.png "Head")

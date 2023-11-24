@@ -11,6 +11,6 @@ With more electrodes, achievable by purchasing a pre-made EEG, you can attempt t
 When we playback the raw signal using Audacity, a radio station can be heard in the background (we even heard a Nivea commercial). Consider building a radio antenna and filtering out all the noise, a process similar to our noise filtering.
 
 ## Einthoven triangle
-We believe that the triangle we have created (earlobe, front of head, and back of head) captures alpha waves due to the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle). Research whether this assumption is correct or not.
+We believe that the triangle we have created (earlobe, front of head, and back of head) captures alpha waves due to the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle). You can research whether this is correct or not. Or more generally research the workings of an EEG.
 
 In Ryan Lopez's EEG project, he also mentioned some possible improvements, which are applicable to our EEG as well: [Ryan Lopez's EEG Project - Future Improvements](https://github.com/ryanlopezzzz/EEG#future-improvement).
