@@ -24,13 +24,13 @@ The voltage difference oscillations between the 2nd and 3rd electrodes are the t
 We think that the alpha waves are the oscillations between the 2nd and 3rd electrode because of the [Einthoven triangle](https://en.wikipedia.org/wiki/Einthoven%27s_triangle), that our EEG works just like an ECG.
 
 ## Circuit
-For the explanation of the circuit, see the [hardware file](hardware.md).
+For the explanation of the circuit, see the [hardware file](documentation/hardware.md).
 
 ## Software
-For the explanation of the signal processing and the application, see the [software file](software.md).
+For the explanation of the signal processing and the application, see the [software file](documentation/software.md).
 
 ## Discussion
-If you want to continue with our project to improve it, see the [discussion file](discussion.md).
+If you want to continue with our project to improve it, see the [discussion file](documentation/discussion.md).
 
 ## Bibliography
-Our most important source was [Ryan Lopez' EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](bibliography.txt).
+Our most important source was [Ryan Lopez' EEG project](https://github.com/ryanlopezzzz/EEG). For the other sources, see the [bibliography file](documentation/bibliography.txt).
