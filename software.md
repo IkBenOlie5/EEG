@@ -23,7 +23,7 @@ For this data, Hu had his eyes open and blinked a few times. The peaks correspon
 ## Flappy bird
 Flappy Bird is coded in Python using pygame. Instead of being able to jump by pressing the space button, you can jump by blinking. See the 'detect_jump' function in the [sprites.py file](flappy/sprites.py). To make the game harder/easier, you can alter the difficulty of the game by changing the time between pipes, the speed of the pipes, and the space between the bottom and upper pipe in the [constants.py file](flappy/constants.py).
 
-For the live demonstration, see the [EEG flappy bird video](videos/EEG%20flappy%20video.mp4).
+For the live demonstration, see the [EEG flappy bird video](https://www.youtube.com/watch?v=r0rO_v2g-HE).
 
 ## Predicting whether someones eyes are open or closed (external dataset)
 We built three different models to predict whether someone's eyes are open or closed: a K Nearest Neighbors model, a Support Vector Machine, and a neural network built using Keras and Tensorflow. For a great explanation of all the concepts, I highly recommend checking out [Sentdex's machine learning YouTube course](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v). To train the Support Vector Machine, I recommend following ['A Practical Guide to Support Vector Classification'](https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf). The neural network performed the worst, achieving only an accuracy of 56%. We used the following dataset: [Eye State Classification EEG Dataset](https://www.kaggle.com/datasets/robikscube/eye-state-classification-eeg-dataset).
