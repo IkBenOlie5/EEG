@@ -1,0 +1,24 @@
+# Materials
+On this page there is a materials list, a small explanation on what their purpose is and tips about what you have to be cautious of when buying the materials. If you are located in the Netherlands, you are in luck. Every item has a hyperlink to where we bought them. If you are located outside the Netherlands, Amazon should have most items and some items need to be bought from an online store like Digikey or Mouser, which might have unexpected tax and delivery fees. 
+
+## Amazon 
+- [Breadboards](https://www.amazon.nl/ELEGOO-Breadboard-Soldeerloos-Prototype-Distributie/dp/B01MCRZFE5/ref=sr_1_6?crid=3W29AJWZ83D01&keywords=breadboard+solderless&qid=1700856759&sprefix=breadb%2Caps%2C106&sr=8-6), try to buy one big breadboard. However, I bought three small ones, because they were cheaper.
+- [Alligator clips with wires](https://www.amazon.nl/Gebildet-Meetsnoeren-Krokodillenklemmen-Ge%C3%AFsoleerde-Dubbelzijdige/dp/B07RXYNZ5N/ref=sr_1_5?crid=NYVQWA3NQBP1&keywords=alligator%2Bclips%2Bwire&qid=1700856807&sprefix=alligator%2Bclips%2B%2Caps%2C98&sr=8-5&th=1), do not forget that wires have to be attached to the Alligator clips.
+- [3.5 mm audio jack male to male](https://www.amazon.nl/gp/product/B00WOGUIFK/ref=ppx_yo_dt_b_asin_title_o00_s02?ie=UTF8&psc=1), headphones use the same wire and both ends have to be a jack.
+- [Electrical tape](https://www.amazon.nl/gp/product/B074SLM838/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1), tape that does not conduct electricity.
+- [Two 9V batteries](https://www.amazon.nl/PHILIPS-6F22L1B-10-batterijen-6F22-9V/dp/B003XQJEYQ/ref=sr_1_8?crid=2RGP4D2AN6GCF&keywords=9v%2Bbatterijen&qid=1700857241&sprefix=9v%2Bbatter%2Caps%2C101&sr=8-8&th=1)
+- [ECG electrodes](https://www.amazon.nl/gp/product/B005N6WIMY/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1), they can also be used for an EEG.
+- [Capacitor set non polarized](https://www.amazon.nl/gp/product/B005N6WIMY/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1), metalized polyester film is recommended, because the values have to be 10 nF to 470 nF. 
+- [Resistor set](https://www.amazon.nl/gp/product/B07PP87M8F/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1), abig range of values is recommended.
+- [Jumper wires male to male](https://www.amazon.nl/Elegoo-Kleuren-Breadboard-Lintkabels-Arduino/dp/B01EV70C78/ref=sr_1_6?crid=3U6OUDCDODUAQ&keywords=jumper+wire+set&qid=1700857776&sprefix=jumper+wir%2Caps%2C93&sr=8-6), these are the wires on the breadboard, however [these Jumper wires](https://www.amazon.nl/Elegoo-Kleuren-Breadboard-Lintkabels-Arduino/dp/B01EV70C78/ref=sr_1_6?crid=3U6OUDCDODUAQ&keywords=jumper+wire+set&qid=1700857776&sprefix=jumper+wir%2Caps%2C93&sr=8-6) look less cluttered.
+- [External USB soundcard](https://www.amazon.nl/gp/product/B07DGR9M6M/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1), easy way to translate the analogue signal to digital as it has an analogue to digital converter inside.
+- [Breadboard LED](https://www.amazon.nl/Youmile-100-Pack-Groen-Blauw-Lichtgevende/dp/B07PZ75N67/ref=sr_1_9?crid=1UT7FJL91YJHF&keywords=breadboard+led&qid=1700859233&sprefix=led+bread%2Caps%2C95&sr=8-9), it does not matter which colour, however the required resistance should be determined.
+- [Mini USB to USB A cable](https://www.amazon.nl/DIGITUS-USB-2-0-aansluitkabel-Versie/dp/B00FIUNV4E/ref=sr_1_1?crid=3HU1YAQ66O7TX&keywords=mini+usb+to+usb+a&qid=1700860326&sprefix=mini+usb+%2Caps%2C97&sr=8-1), the cable used to connect the soundcard to the laptop/computer.
+
+## Mouser
+- Two [AD620ANZ](https://nl.mouser.com/ProductDetail/Analog-Devices/AD620ANZ?qs=NmRFExCfTkHu6Llcn4Sf4Q%3D%3D) or [AD620BNZ](https://nl.mouser.com/ProductDetail/Analog-Devices/AD620BNZ?qs=NmRFExCfTkHYydm4fha66w%3D%3D) (DIP 8). This is the instrumental amplifier and MAKE SURE YOU BUY DIP 8! Any other type does not fit on the breadboard. The B-type is a little better than the A-type, so if you have enough funds go for the B type
+- [SPST (single pole single throw) switch](https://nl.mouser.com/ProductDetail/NKK-Switches/A11JP?qs=KqcCwYXy5KGYGAOWVYZnow%3D%3D), used to turn off the circuit.
+- [Four TL084CN](https://nl.mouser.com/ProductDetail/Texas-Instruments/TL084CN?qs=q2XTDbzbm6ANF36GVAxPiQ%3D%3D), this is the quad operational amplifier (4 op-amps in one chip). Only one is required, however it can be damaged quite easily so buying multiple is safer.
+- [Four TL082ACP](https://nl.mouser.com/ProductDetail/Texas-Instruments/TL082ACP?qs=0le1rQK8zxrLXibbSNmvcA%3D%3D), this is the dual operational amplifier (2 op-amps in one chip). Only one is needed, however it can be damaged quite easily so buying multiple is safer.
+
+This is everything needed to build an DIY EEG machine. Make sure to buy everything in the right size, look at the datasheets of every chip, in order to understand which type is which and ask the physics teachers if there are any items from the list in school, that will save you quite a lot of money.
