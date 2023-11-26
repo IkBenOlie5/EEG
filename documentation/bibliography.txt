@@ -2,11 +2,35 @@ Bibliography
 
 3Blue1Brown (Director). (2018, January 26). But what is the Fourier Transform?  A visual introduction. https://www.youtube.com/watch?v=spUNpyF58BY
 10–20 system (EEG). (2023). In Wikipedia. https://en.wikipedia.org/w/index.php?title=10%E2%80%9320_system_(EEG)&oldid=1144970353
+Analog-to-digital converter. (2023). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Analog-to-digital_converter&oldid=1179394589
+cah6. (n.d.). DIY EEG (and ECG) Circuit. Instructables. Retrieved 26 November 2023, from https://www.instructables.com/DIY-EEG-and-ECG-Circuit/
+Changpuak, A. C. F., aka. (n.d.). Online Engineering Calculator: Active Twin - T - Notch Filter Calculator. Www.Changpuak.Ch. Retrieved 26 November 2023, from https://www.changpuak.ch/electronics/Active_Notch_Filter.php
+chipstein—Building the Amplifier. (n.d.). Retrieved 26 November 2023, from https://sites.google.com/site/chipstein/homebrew-do-it-yourself-eeg-ekg-and-emg/building-the-amplifier
+Dahl, Ø. N. (2020, September 18). What is Ground in Electronic Circuits? Build Electronic Circuits. https://www.build-electronic-circuits.com/what-is-ground/
+EEG (Electroencephalography): The Complete Pocket Guide - iMotions. (2019, August 27). https://imotions.com/blog/learning/best-practice/eeg/
 Einthoven’s triangle. (2023). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Einthoven%27s_triangle&oldid=1186304522
+electronzapdotcom (Director). (2020, August 10). Electronics single versus dual or split power supply explained. https://www.youtube.com/watch?v=jiWKQEOSgIs
 Eye State Classification EEG Dataset. (n.d.). Retrieved 24 November 2023, from https://www.kaggle.com/datasets/robikscube/eye-state-classification-eeg-dataset
 How to tune the K-Nearest Neighbors classifier with Scikit-Learn in Python. (2020, January 28). DataSklr. https://www.datasklr.com/select-classification-methods/k-nearest-neighbors
 Hsu, C.-W., Chang, C.-C., & Lin, C.-J. (n.d.). A Practical Guide to Support Vector Classiﬁcation.
 ICA applied to EEG: What is ICA? (n.d.). Retrieved 24 November 2023, from https://www.youtube.com/watch?v=kWAjhXr7pT4&list=PLXc9qfVbMMN2uDadxZ_OEsHjzcRtlLNxc&index=2
+Leske, S., & Dalal, S. S. (2019). Reducing power line noise in EEG and MEG data via spectrum interpolation. NeuroImage, 189, 763–776. https://doi.org/10.1016/j.neuroimage.2019.01.026
 Lopez, R. (2023). EEG [Python]. https://github.com/ryanlopezzzz/EEG (Original work published 2021)
+Notch Filter Calculator. (n.d.). Retrieved 26 November 2023, from https://www.learningaboutelectronics.com/Articles/Notch-filter-calculator.php#answer1
+Physics Videos by Eugene Khutoryansky (Director). (2015, September 4). Resistors—Ohm’s Law is not a real law. https://www.youtube.com/watch?v=G3H5lKoWPpY
+Physics Videos by Eugene Khutoryansky (Director). (2016a, February 2). Op Amp Circuits: Analog Computers from operational amplifiers. https://www.youtube.com/watch?v=_o4ScgRZtNI
+Physics Videos by Eugene Khutoryansky (Director). (2016b, April 26). Capacitors and Capacitance: Capacitor physics and circuit operation. https://www.youtube.com/watch?v=f_MZNsEqyQw
+Power Electronics Introduction—What is Power Electronics? (n.d.). Retrieved 24 November 2023, from https://www.youtube.com/watch?v=hRAyfJLZnC0&list=PLmK1EnKxphinxBub5hL0ZoJXWoqjkGE19
+Power Electronics Introduction—What is Power Electronics? - YouTube. (n.d.). Retrieved 24 November 2023, from https://www.youtube.com/watch?v=hRAyfJLZnC0&list=PLmK1EnKxphinxBub5hL0ZoJXWoqjkGE19
 Python, R. (n.d.). Fourier Transforms With scipy.fft: Python Signal Processing – Real Python. Retrieved 24 November 2023, from https://realpython.com/python-scipy-fft/
+Reese, L. (2020, May 5). What is signal attenuation? Analog IC Tips. https://www.analogictips.com/what-is-signal-attenuation/
 sentdex (Director). (2016, April 11). Practical Machine Learning Tutorial with Python Intro p.1. https://www.youtube.com/watch?v=OGxgnH8y2NM
+Storr, W. (2013a, August 14). Active High Pass Filter—Op-amp High Pass Filter. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/filter_6.html
+Storr, W. (2013b, August 14). Active Low Pass Filter—Op-amp Low Pass Filter. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/filter_5.html
+Storr, W. (2013c, August 14). Capacitive Reactance—The Reactance of Capacitors. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/filter_1.html
+Storr, W. (2013d, August 14). High Pass Filter—Passive RC Filter Tutorial. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/filter_3.html
+Storr, W. (2013e, August 14). Low Pass Filter—Passive RC Filter Tutorial. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/filter_2.html
+Storr, W. (2015, October 20). Band Stop Filter and Notch Filter Design Tutorial. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/band-stop-filter.html
+Storr, W. (2021, October 7). Sallen and Key Filter Design for Second Order RC Filters. Basic Electronics Tutorials. https://www.electronics-tutorials.ws/filter/sallen-key-filter.html
+Texas Instruments (Director). (2020, January 7). Introduction to instrumentation amplifiers. https://www.youtube.com/watch?v=NvyDw8ZpLd0
+Twin-T Filter. (n.d.). Retrieved 26 November 2023, from https://www.falstad.com/circuit/e-twint.html
