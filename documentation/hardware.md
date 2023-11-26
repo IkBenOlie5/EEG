@@ -1,4 +1,5 @@
 # Hardware
+For every term that we did not understand, we have added a link to an explanation as a hyperlink.
 
 ## Materials
 See the [materials file](materials.md).

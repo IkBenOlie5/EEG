@@ -1,4 +1,5 @@
 # EEG
+Our brain consists of brain cells, neurons, which are connected to each other. When you think or do anything, these neurons interact with each other by sending electrical signals. We want to measure these signals.  
 For our PWS (School Research Project) at Christelijk Gymnasium Utrecht, we have built an EEG (electroencephalogram) machine. This is a machine that measures brain waves, voltage differences which oscillate and represent synchronized activity over a network of neurons. For our project, we measure alpha waves originating from the occipital lobe because they are one of the strongest EEG signals. Alpha waves reflect activities in the visual cortex; when someone closes their eyes or relaxes, their magnitude is increased, and decreased with open eyes and concentration.
 
 ## We have used the EEG data for multiple applications:
