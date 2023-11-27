@@ -40,4 +40,4 @@ Our most important source were:
 - https://imotions.com/blog/learning/best-practice/eeg/#eeg-signals
 - https://www.instructables.com/DIY-EEG-and-ECG-Circuit/
 
-For the other sources, see the [bibliography file](documentation/bibliography.txt).
+For the other sources, see the [bibliography file](documentation/bibliography.md).
