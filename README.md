@@ -36,8 +36,8 @@ If you want to continue with our project to improve it, see the [discussion file
 ## Bibliography
 Our most important source were:
 - [Ryan Lopez' EEG project](https://github.com/ryanlopezzzz/EEG). 
-- https://sites.google.com/site/chipstein/homebrew-do-it-yourself-eeg-ekg-and-emg/building-the-amplifier?authuser=0
-- https://imotions.com/blog/learning/best-practice/eeg/#eeg-signals
-- https://www.instructables.com/DIY-EEG-and-ECG-Circuit/
+- [chipstein - Building the Amplifier](https://sites.google.com/site/chipstein/homebrew-do-it-yourself-eeg-ekg-and-emg/building-the-amplifier?authuser=0)
+- [EEG (Electroencephalography): The Complete Pocket Guide - iMotions](https://imotions.com/blog/learning/best-practice/eeg/#eeg-signals)
+- [DIY EEG (and ECG) Circuit](https://www.instructables.com/DIY-EEG-and-ECG-Circuit/)
 
 For the other sources, see the [bibliography file](documentation/bibliography.md).
